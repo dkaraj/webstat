@@ -141,4 +141,4 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-API_KEY_SECRET = 'abcd'
+API_KEY_SECRET = env('API_KEY')
